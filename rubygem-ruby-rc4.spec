@@ -4,13 +4,14 @@
 #
 Name     : rubygem-ruby-rc4
 Version  : 0.1.5
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/ruby-rc4-0.1.5.gem
 Source0  : https://rubygems.org/downloads/ruby-rc4-0.1.5.gem
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
 BuildRequires : ruby
+BuildRequires : rubygem-devise
 BuildRequires : rubygem-diff-lcs
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-rspec
@@ -63,19 +64,10 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/ruby-rc4-0.1.5.gem
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/cdesc-RC4.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/decrypt-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/encrypt%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/encrypt-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/process-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/RC4/round-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ruby-rc4-0.1.5/ri/page-README_md.ri
-/usr/lib64/ruby/gems/2.2.0/gems/ruby-rc4-0.1.5/LICENSE
-/usr/lib64/ruby/gems/2.2.0/gems/ruby-rc4-0.1.5/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/ruby-rc4-0.1.5/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/ruby-rc4-0.1.5/lib/rc4.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ruby-rc4-0.1.5/spec/rc4_spec.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/ruby-rc4-0.1.5.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/ruby-rc4-0.1.5.gem
+/usr/lib64/ruby/gems/2.3.0/gems/ruby-rc4-0.1.5/LICENSE
+/usr/lib64/ruby/gems/2.3.0/gems/ruby-rc4-0.1.5/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/ruby-rc4-0.1.5/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/ruby-rc4-0.1.5/lib/rc4.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ruby-rc4-0.1.5/spec/rc4_spec.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/ruby-rc4-0.1.5.gemspec
